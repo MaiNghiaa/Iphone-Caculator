@@ -1,0 +1,148 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.iphone-screen {
+  position: relative;
+  margin: 0 auto;
+  width: 450px;
+  height: 845px;
+  padding: 25px;
+  background: #131313;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid #fff; */
+}
+.iphone-screen::after {
+  content: "";
+  display: inline-block;
+  width: 159px;
+  border: 6px solid #fff;
+  position: absolute;
+  border-radius: 6px;
+  left: 144.5px;
+  bottom: 22px;
+}
+.iphone-screen::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 159px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #fff;
+  top: 24px;
+  left: 140px;
+}
+
+.iphone_img {
+  width: 100%;
+  object-fit: cover;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 18px;
+}
+
+.top .top-right i {
+  margin: 2px;
+}
+i {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.row button {
+  width: 92.11px;
+  height: 92.11px;
+  background-color: #343434;
+  border-radius: 50%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8;
+  color: #fff;
+}
+.row:last-child {
+  margin-right: 4px;
+}
+.highlight_num {
+  background-color: #a9a9a9 !important;
+}
+#caculation {
+  background-color: #ff9900 !important;
+}
+#zero {
+  width: 185.38px !important;
+  border-radius: 44.7398px;
+}
+#result {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-family: "Inter";
+  margin-right: 10px;
+  letter-spacing: -7px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 88px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  outline: none;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 36px;
+}
+
+.keys {
+  display: flex;
+  gap: 6.4px;
+  flex-direction: column;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+button:active {
+  opacity: 0.9;
+}
+
+.multiply {
+}
+
+.result .input {
+  padding-right: 8px;
+}
+.result {
+  color: #fff;
+  gap: 10px;
+  display: flex;
+  margin: 40px 20px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.output {
+  font-size: 50px;
+}
