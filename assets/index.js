@@ -67,7 +67,7 @@ function Pretier_out(value) {
 function datetime() {
   const now = new Date();
   const hours = now.getHours();
-  const minutes = now.getMinutes();
+  var minutes = now.getMinutes().toString().padStart(2, "0");
   var times = `${hours}:${minutes}`;
   let time = document.querySelector(".time");
   time.innerHTML = times;
