@@ -35,6 +35,9 @@ html {
   left: 144.5px;
   bottom: 22px;
 }
+.time {
+  font-style: normal;
+}
 .iphone-screen::before {
   position: absolute;
   content: "";
